@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  html{
+    width: 1280px;
+    zoom: 100%;
+    scroll-behavior: smooth;
+  }
+  .header {
+    margin-bottom: -4px;
+    zoom: 100%;
+  }
+  
+  body {
+    background-color: #FEFEFE;
+  }
+  
+  .nav {
+    margin-top: 0px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #efd8b1;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .ip .btn {
+    display: inline-block;
+    color: #434b5d;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .ip:hover, .dropips:hover, .droppkn:hover, .btn:hover {
+    background-color:#dbd059;
+    color: white;
+  }
+  
+  li.krjsm {
+    display: inline-block;
+  }
+  
+  .dropips {
+    display: none;
+    position: absolute;
+    background-color: #dbd059;
+    min-width: 160px;
+    box-shadow: 0px 5px 16px #d5c300;
+    z-index: 1;
+  }
+  
+  .drop{
+    display: none;
+    position: absolute;
+    background-color: #d5c300;
+    box-shadow: 0px 5px 16px #766d07;
+    z-index: 1;
+  }
+  
+  .dropips a {
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropips a:hover {
+    background-color: #650800;
+  }
+  
+  .krjsm:hover {
+    background-color: #d5c300;
+    color: white;
+  }
+  
+  .krjsm:hover .dropips {
+    display: block;
+    color: white;
+  }
+  
+  li.krjsm {
+    display: inline-block;
+  }
+  
+  .drop-content {
+    display: none;
+    position: absolute;
+    background-color: #dbd059;
+    min-width: 160px;
+    box-shadow: 0px 5px 16px #d5c300;
+    z-index: 1;
+  }
+  
+  .drop{
+    display: none;
+    position: absolute;
+    background-color: #d5c300;
+    box-shadow: 0px 5px 16px #766d07;
+    z-index: 1;
+  }
+  
+  .drop-content a {
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .drop-content a:hover {
+    background-color: #650800;
+  }
+  
+  .droppkn:hover {
+    background-color: #d5c300;
+    color: white;
+  }
+  
+  .droppkn:hover .drop-content {
+    display: block;
+    color: white;
+  }
+  
+  .column-side{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
+  }
+  
+  .column-side{
+    width: 300px;
+    height: 500px;
+    background-color: #d5c300;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+  .hom{
+    color:#3a4d64;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 10px 0px 0px;
+    
+  }
+  
+  .krjsm{
+    color:#3a4d64;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 10px 0px 0px;
+  }
+  
+  .droppkn{
+    color:#3a4d64;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 10px 0px 0px;
+  }
+  
+  .ks{
+    color:#3a4d64;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 10px 0px 0px;
+  }
+  
+  .r{
+    color:#3a4d64;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 10px 0px 0px;
+  }
+  
+  h1{
+    color:black;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Peralta", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 0px 5px 20px;
+  }
+  
+  .footer{
+    position: relative;
+    margin: 12px 0px;
+  }
+
+  .sumbers{
+    font-size: 15px;
+    list-style-position: inside ;
+    background-color: wheat;
+    color: black;
+    margin-top: 6px;
+    display: block;
+}
+
+.sumber-text a {
+    color: black; 
+    text-decoration: underline;
+}
+
+.sumber-text a:hover {
+    background-color: crimson;
+    color: lightgrey; 
+}
+
